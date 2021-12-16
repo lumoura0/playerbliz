@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PlayerBliz</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:400,400i,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+
+  <body class="dark">
+    <header class="menu-bg">
+      <div class="menu">
+        <div class="menu-logo">
+          <img src="/img/botao-play.png" alt="botao" />
+          <a href="index.html"> PlayerBliz</a>
+        </div>
+        <nav>
+          <ul class="menu-nav">
+            <li><a href="#introducao">Sobre</a></li>
+            <li><a href="#player">Player</a></li>
+            <li><a href="#preco">Planos</a></li>
+            <li><a href="#qualidade">Solução</a></li>
+          </ul>
+        </nav>
+        <div class="dark-to-light">
+          <label id="mode">Dark</label>
+          <div class="holder" style="justify-content: flex-end">
+            <button
+              class="activate"
+              id="activate"
+              onclick="modeActivation()"
+            ></button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="introducao">
+      <div class="container dark">
+        <h1>Vídeo feito para venda virtual</h1>
+        <p>
+          O PlayerBliz é a chave para facilitar a venda à distância. Da
+          prospecção às propostas, grave e envie vídeos que agreguem um toque
+          pessoal em todas as etapas do ciclo de vendas.
+        </p>
+        <div>
+          <button type="button" class="btn"></button>
+        </div>
+      </div>
+      <div class="video">
+        <video src="/img/homepage-hero.mp4" controls muted autoplay></video>
+      </div>
+    </section>
+
+    <section class="dashboard dark">
+      <div class="bg">
+        <img src="/img/dashb.png" alt="" />
+      </div>
+      <div class="dashboard-texto">
+        <h2>O painel do Relatório de Venda Virtual</h2>
+        <p>
+          Nosso painel de pesquisa destaca planos de vendas remotas futuras,
+          destaca como os vendedores podem usar melhor o vídeo e o ajudará a
+          construir um plano de ação de vídeo com recomendações importantes para
+          começar.
+        </p>
+      </div>
+    </section>
+
+    <section id="preco">
+      <h2>Planos</h2>
+      <div class="preco">
+        <div class="preco-item dark">
+          <h2>Grátis</h2>
+          <span><sup>R$</sup>00</span>
+          <ul>
+            <li>Gravação de vídeo</li>
+            <li>Uploads de vídeo</li>
+            <li>Compartilhe por e-mail, mídia social e muito mais</li>
+            <li>Suporte 24h</li>
+          </ul>
+          <a href="#" class="dark btn-compra">Comprar</a>
+        </div>
+
+        <div class="preco-item dark">
+          <h2>Pro</h2>
+          <span><sup>R$</sup>12.99/mês</span>
+          <ul>
+            <li>Proteção de senha</li>
+            <li>Respostas aos seus vídeos</li>
+            <li>Crie uma frase de chamariz para seus vídeos</li>
+            <li>Suporte 24h</li>
+            <li>Compra Exclusiva</li>
+          </ul>
+          <a href="#" class="dark btn-compra">Comprar</a>
+        </div>
+
+        <div class="preco-item dark">
+          <h2>Ouro</h2>
+          <span><sup>R$</sup>40/mês</span>
+          <ul>
+            <li>Planos Ilimitados</li>
+            <li>Acesso Restrito</li>
+            <li>Conteúdo Secreto</li>
+            <li>Suporte 24h</li>
+            <li>Compra Exclusiva</li>
+            <li>Download dos Itens</li>
+          </ul>
+          <a href="#" class="dark btn-compra">Comprar</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="qualidade">
+      <h2 class="titulo">Solução</h2>
+      <div class="qualidade">
+        <div class="qualidade-item">
+          <h2>SaaS</h2>
+          <p>
+            O vídeo mostra seu produto SaaS para o mundo e agrega valor a seus
+            canais de marketing, vendas e suporte .
+          </p>
+        </div>
+
+        <div class="qualidade-item">
+          <h2>Telecomunicações</h2>
+          <p>
+            Construa conexões humanas com leads de vendas, clientes em potencial
+            e compradores com interações feitas para o negócio de comunicação.
+          </p>
+        </div>
+
+        <div class="qualidade-item">
+          <h2>Finança</h2>
+          <p>
+            Seja você um consultor financeiro, corretor ou contador, use o vídeo
+            para manter seu negócio pessoal, mesmo quando remoto.
+          </p>
+        </div>
+
+        <div class="qualidade-item">
+          <h2>Comércios e serviços</h2>
+          <p>
+            Compartilhe vídeos personalizados para revisar propostas, responder
+            perguntas e construir relacionamento com clientes em potencial.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="player" class="introducao">
+      <div class="container">
+        <h1>Criação rápida e indolor de vídeo para vendas virtuais</h1>
+        <p>
+          Dê um rosto ao seu nome com o vídeo. Grave sua webcam, sua tela ou
+          ambos para fazer vídeos de prospecção, acompanhamentos, demonstrações
+          de produtos e outras comunicações que impulsionam as vendas virtuais.
+        </p>
+      </div>
+      <div class="video">
+        <video src="/img/govideo-record.mp4" controls muted autoplay></video>
+      </div>
+    </section>
+
+    <footer id="footer" class="footer dark">
+      <p>PlayerBliz © Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="/js/script.js"></script>
+  </body>
+</html>
