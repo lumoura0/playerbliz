@@ -1,4 +1,4 @@
-FlexBlog !!!
+PlayerBliz !!!
 
 
 ## 🚀 Tecnologias e Ferramentas Utilizadas
