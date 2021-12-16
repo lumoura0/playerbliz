@@ -27,7 +27,6 @@ function modeActivation() {
         precoDark.forEach(item => {
             item.classList.remove('dark');
         })
-
         return
     }
     if (!active) {
